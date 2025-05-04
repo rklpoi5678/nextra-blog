@@ -1,59 +1,112 @@
 ---
-title: Nextra Docs Starter
+title: MetaOS | AI 기반 프로젝트 관리 시스템
 ---
 
 import {Steps, Cards} from 'nextra/components'
-import { Search } from 'lucide-react';
+import { Brain, Users, Layers, Heart, Zap, ArrowUpRight } from 'lucide-react';
 
+# MetaOS | AI 기반 프로젝트 관리 시스템
 
-# Nextra Docs Starter
+MetaOS는 AI 기반의 혁신적인 프로젝트 관리 시스템으로, 프로젝트의 구조와 흐름을 더 스마트하게 관리할 수 있게 해줍니다.
 
-This starter template includes the following features:
+## 핵심 시스템
 
 <Cards>
     <Cards.Card
-        icon={<img src="/images/general/icon.svg" alt="Logo" width={28} height={28}/>}
-        title="Nextra 4"
-        href="https://nextra.site"
-    />
+        icon={<Layers/>}
+        title="프로젝트 구조화"
+        href="/docs/project"
+    >
+        목적 중심의 외부화된 구조로 프로젝트를 체계적으로 관리합니다.
+    </Cards.Card>
     <Cards.Card
-        icon={<Search/>}
-        title="Search with Pagefind"
-        href="https://the-guild.dev/blog/nextra-4#new-search-engine--pagefind"
-    />
+        icon={<Brain/>}
+        title="에이전트 시스템"
+        href="/docs/agent"
+    >
+        자동 실행 단위로 프로젝트의 효율성을 극대화합니다.
+    </Cards.Card>
     <Cards.Card
-        title="Lucide Icons"
-        href="https://lucide.dev/icons"
-    />
+        icon={<Zap/>}
+        title="6단계 구조"
+        href="/docs/structure"
+    >
+        흐름 정제 사이클을 통한 체계적인 프로젝트 관리
+    </Cards.Card>
+    <Cards.Card
+        icon={<Heart/>}
+        title="4가지 인간 욕구"
+        href="/docs/desires"
+    >
+        동기 부여 트리거 코어로 프로젝트 참여도를 높입니다.
+    </Cards.Card>
 </Cards>
 
-[**Live Demo →**](https://nextra-docs-starter.vercel.app)
+## 핵심 특징
 
-[**Check this on GitHub →**](https://github.com/phucbm/nextra-docs-starter)
+### 감정 기반 프로젝트 관리
+- 감정은 구조적 변화의 트리거
+- 에이전트의 선택 흐름을 주도
+- 구조의 재배치와 최적화
 
-## Quick Start
+### 진화하는 시스템
+- 정적 루틴과 동적 개시의 조화
+- 필요에 따른 행동 패턴 재구성
+- 새로운 흐름의 창출
 
-You can deploy this template on Vercel by clicking the button below
+### 실험과 루프
+- 실험은 파괴와 실패의 영역
+- 루프는 기억과 흐름을 구축
+- 프로젝트는 이 둘을 엮어냄
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fphucbm%2Fnextra-docs-starter)
-
-Or you can follow the steps below to clone the repository and run it locally.
+## 시작하기
 
 <Steps>
-    ### Clone this repository
-
-    Using the GitHub CLI:
+    ### MetaOS 설치
     ```bash
-    gh repo clone phucbm/nextra-docs-starter
+    pnpm add metaos
     ```
 
-    ### Install
-    ```bash
-    pnpm i
+    ### 기본 설정
+    ```typescript
+    import { MetaOS } from 'metaos'
+    
+    const metaos = new MetaOS({
+      project: {
+        name: 'My Project',
+        structure: 'purpose-driven'
+      },
+      agent: {
+        type: 'self-executing',
+        capabilities: ['automation', 'learning']
+      }
+    })
     ```
 
-    ### Run the development server
-    ```bash
-    pnpm dev
+    ### 프로젝트 시작
+    ```typescript
+    await metaos.initialize()
+    await metaos.startProject()
     ```
 </Steps>
+
+## 핵심 구성요소
+
+### 의도 (Intent)
+- 철학과 존재 이유에 대한 질문
+- 확장 가능한 구조 설계
+- 지속적인 개선과 발전
+
+### 관점 (Perspective)
+- 정보와 경험을 해석하는 프레임
+- 유연한 사고방식
+- 다양한 시각의 통합
+
+### 행동 (Behavior)
+- 외부와의 연결성
+- 실천 가능한 결과물
+- 지속적인 피드백 루프
+
+[**시작하기 →**](/docs/getting-started)
+
+[**GitHub에서 확인 →**](https://github.com/rklpoi5678/metaos)
