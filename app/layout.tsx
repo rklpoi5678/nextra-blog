@@ -16,7 +16,8 @@ const banner =
 const navbar = (
     <Navbar
         logo={<span style={{ fontWeight: 'bold', fontSize: '1.2rem'}}>Meta OS.Log</span>}
-        // ... Your additional navbar options
+        projectLink="https://meta-os.vercel.app"
+        projectIcon={<img src="/images/general/metaOS.png" alt="Logo" width={40} height={40}/>}
     />
 )
 
