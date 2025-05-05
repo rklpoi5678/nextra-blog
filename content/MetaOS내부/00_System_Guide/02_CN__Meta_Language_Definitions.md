@@ -11,13 +11,13 @@ meta_layer: true
 
 제목: [우선순위_2자리]_[역할약어]__[기능설명].md
 
-00_OV__개요와문서구조.md (Overview) 
-01_MX__메타설계프레임정리.md (Meta indeX) 
-02_FR__프레임워크정리.md (Framework) 
-03_EX__실험및응용사례.md (EXperiment) 
-04_FN__기능설계.md (FuNction) 
-05_DG__시각화도식.md (DiaGram) 
-99_AR__아카이브.md (ARchive) 
+#### 00_OV__개요와문서구조.md (Overview) 
+#### 01_MX__메타설계프레임정리.md (Meta indeX) 
+#### 02_FR__프레임워크정리.md (Framework) 
+#### 03_EX__실험및응용사례.md (EXperiment) 
+#### 04_FN__기능설계.md (FuNction) 
+#### 05_DG__시각화도식.md (DiaGram) 
+#### 99_AR__아카이브.md (ARchive) 
 
 파일 시스템: snake_case -> 옵시디언 네임은 00_0V_개요와 흐름 처럼 표시
 URL파싱은 kebab-case
