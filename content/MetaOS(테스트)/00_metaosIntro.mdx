@@ -1,0 +1,139 @@
+---
+title: MetaOS | AI 기반 프로젝트 관리 시스템
+---
+
+import {Steps, Cards} from 'nextra/components'
+import { Brain, Users, Layers, Heart, Zap, Eye, ArrowUpRight } from 'lucide-react';
+
+# MetaOS | AI 기반 프로젝트 관리 시스템
+
+> MetaOS는 AI 기반의 혁신적인 프로젝트 관리 시스템으로, 프로젝트의 구조와 흐름을 더 스마트하게 관리할 수 있게 해줍니다.
+> **MetaOS는 단순한 프로젝트 관리 툴이 아닙니다.**
+> 당신의 존재 흐름, 감정, 목적, 실행을 연결하는 **AI 프로젝트 시스템**입니다..
+
+---
+
+## 시스템 철학
+
+**우리는 이렇게 생각합니다:**
+
+- 감정은 단순한 기분이 아닌, **행동과 구조를 바꾸는 트리거**입니다.
+- 프로젝트는 단순 작업이 아니라, **확장과 표현**입니다.  
+- 진짜 시스템은 기능이 아니라, **의도와 루프, 피드백을 포함한 하나의 흐름**입니다.
+
+---
+
+
+## MetaOS 핵심 기능
+
+<Cards>
+    <Cards.Card
+        icon={<Layers/>}
+        title="프로젝트 구조화"
+        href="/docs/project"
+    >
+        흐름에 따라 유동적으로 변화하는 목적 중심 프로젝트 구조
+    </Cards.Card>
+
+    <Cards.Card
+        icon={<Brain/>}
+        title="에이전트 시스템"
+        href="/docs/agent"
+    >
+        자동화 + 감정 기반 선택을 수행하는 자율 실행 단위
+    </Cards.Card>
+
+    <Cards.Card
+        icon={<Zap/>}
+        title="6단계 구조"
+        href="/docs/structure"
+    >
+        Core -> Structure -> Tool -> Experiment -> Archive -> Open의 순환
+    </Cards.Card>
+
+    <Cards.Card
+        icon={<Heart/>}
+        title="4가지 인간 욕구"
+        href="/docs/desires"
+    >
+       연결, 성장, 창조, 인정 등 - 동기를 유도하는 코어 설계 요소
+
+    </Cards.Card>
+        <Cards.Card
+        icon={<Eye/>}
+        title="감정 루프 시스템"
+        href="/docs/emotion"
+    >
+        감정의 상태에 따라 루틴/실행/에이전트가 변화하는 동적인 설계
+    </Cards.Card>
+</Cards>
+
+---
+
+## 핵심 특징
+
+### 감정 기반 프로젝트 관리
+- 감정은 구조적 변화의 트리거
+- 에이전트의 선택 흐름을 주도
+- 구조의 재배치와 최적화
+
+### 진화하는 시스템
+- 정적 루틴과 동적 개시의 조화
+- 필요에 따른 행동 패턴 재구성
+- 새로운 흐름의 창출
+
+### 실험과 루프
+- 실험은 파괴와 실패의 영역
+- 루프는 기억과 흐름을 구축
+- 프로젝트는 이 둘을 엮어냄
+
+---
+
+## MetaOS는 이렇게 작동합니다
+
+<Steps>
+    ### 1. 설치
+    ```bash
+    pnpm add metaos
+    ```
+
+    ### 기본 설정
+    ```ts
+    import { MetaOS } from 'metaos'
+    
+    const metaos = new MetaOS({
+      project: {
+        name: 'My Project',
+        structure: 'purpose-driven'
+      },
+      agent: {
+        type: 'self-executing',
+        capabilities: ['automation', 'learning']
+      }
+    })
+    ```
+
+    ### 프로젝트 시작
+    ```ts
+    await metaos.initialize()
+    await metaos.startProject()
+    ```
+</Steps>
+
+## 시스템의 핵심 설게
+
+### 1.의도 (Intent)
+- 프로젝트는 단순 목표가 아니라 **존재 이유에 대한 확장입니다.*
+- MetaOS는 당신의 의도를 기반으로 구조를 설계합니다.
+
+### 2.관점 (Perspective)
+- 정보와 경험을 **해석하는 프레임에 따라 가치가 달라집니다.**
+- 우리는 다양한 관점을 시스템에 통합합니다.
+
+### 행동 (Behavior)
+- 외부와의 연결을 통해 작동합니다.
+- 실행 가능한 루틴과 자동화를 통해 **계속 움직이는 구조**를 만듭니다
+
+[**시작하기 →**](/docs/getting-started)
+
+[**GitHub에서 확인 →**](https://github.com/rklpoi5678/metaos)
